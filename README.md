@@ -1,1 +1,52 @@
-# Pos-app
+<h1 align="center">✂ Barber POS</h1> <p align="center"> <b>A fast, offline-first point of sale for barber shops.</b><br> Built with Flutter, Drift (SQLite) and Material 3. </p> <p align="center"> <img src="screenshots/sale.jpg" width="200" alt="Sale" /> <img src="screenshots/reports.jpg" width="200" alt="Reports" /> </p>
+✨ Features
+One-tap sales: tap service tiles in a responsive grid and watch the total update.
+Cash & Whish payments: every order records how it was paid.
+Receipts: on-screen receipt after each sale, with print or save as an A6 PDF.
+Service manager: add, edit and price services; toggle a service off to hide it without losing history.
+Live reports: daily and monthly totals, order counts and the cash vs Whish split, updating in real time.
+CSV export: export the selected day or month (saved to app storage on Android, share sheet on iOS).
+Google Drive backup & restore: back up the database and restore it on a new device; last backup time shown in Settings.
+Offline-first: all data is stored locally in SQLite.
+📱 Screenshots
+<table align="center"> <tr> <td align="center"><b>Sale</b></td> <td align="center"><b>Services</b></td> <td align="center"><b>Reports</b></td> </tr> <tr> <td align="center"><img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 25" src="https://github.com/user-attachments/assets/e5af52dc-caf2-4d62-840a-e68d2c49b9b3" />
+</td> <td align="center"><img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 26" src="https://github.com/user-attachments/assets/a7938fc4-19ed-45e9-abc5-786dd32869c5" />
+</td> <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/aadc23f4-cd0e-478b-b1d6-1e86074531ae" />
+</td> </tr> </table>
+🧭 How it works
+Sale: select the services the customer wants.
+Pay: choose Cash or Whish; the order and its items are saved in one transaction.
+Receipt: review, then print or save a PDF.
+Reports & backup: check daily/monthly totals, export CSV and back up to Google Drive.
+🗂 Project structure
+lib/
+├── main.dart
+├── core/
+│   ├── backup/        # Google Drive backup & restore
+│   ├── database/      # Drift database and tables
+│   └── export/        # CSV export and file saving
+└── features/
+    ├── home/          # Bottom navigation
+    ├── sales/         # Sales screen, receipt screen, receipt PDF
+    ├── services/      # Services list and add/edit dialog
+    ├── reports/       # Daily and monthly reports
+    └── settings/      # Backup and restore controls
+🛠 Tech
+
+Show Image Show Image Show Image Show Image
+
+Drift · Google Sign-In · Google Drive API · pdf · printing · share_plus · csv · shared_preferences
+
+🚀 Getting started
+bash
+git clone https://github.com/josephassaf999/barber-pos.git
+cd barber-pos
+flutter pub get
+dart run build_runner build --delete-conflicting-outputs
+flutter run
+
+Google Drive backup needs a Google Cloud OAuth client configured for the app's package name.
+
+👤 Author
+
+Joseph Assaf · github.com/josephassaf999
