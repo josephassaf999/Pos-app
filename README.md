@@ -1,4 +1,6 @@
-<h1 align="center">✂ Barber POS</h1> <p align="center"> <b>A fast, offline-first point of sale for barber shops.</b><br> Built with Flutter, Drift (SQLite) and Material 3. </p> <p align="center"> <img src="screenshots/sale.jpg" width="200" alt="Sale" /> <img src="screenshots/reports.jpg" width="200" alt="Reports" /> </p>
+<h1 align="center">✂ Barber POS</h1> <p align="center"> <b>A fast, offline-first point of sale for barber shops.</b><br> Built with Flutter, Drift (SQLite) and Material 3. </p> <p align="center"> <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 25" src="https://github.com/user-attachments/assets/02d24e62-3f10-4ba5-9374-436ca6764cca" />
+ <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/b883c50a-c8b9-4fd6-86a2-e7888dc1c72a" />
+ </p>
 ✨ Features
 One-tap sales: tap service tiles in a responsive grid and watch the total update.
 Cash & Whish payments: every order records how it was paid.
