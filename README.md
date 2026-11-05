@@ -1,5 +1,5 @@
-<h1 align="center">✂ Barber POS</h1> <p align="center"> <b>A fast, offline-first point of sale for barber shops.</b><br> Built with Flutter, Drift (SQLite) and Material 3. </p> <p align="center"> <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 25" src="https://github.com/user-attachments/assets/02d24e62-3f10-4ba5-9374-436ca6764cca" />
- <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/b883c50a-c8b9-4fd6-86a2-e7888dc1c72a" />
+<h1 align="center">✂ Barber POS</h1> <p align="center"> <b>A fast, offline-first point of sale for barber shops.</b><br> Built with Flutter, Drift (SQLite) and Material 3. </p> <p align="center"> <img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 25" src="https://github.com/user-attachments/assets/02d24e62-3f10-4ba5-9374-436ca6764cca" />
+ <img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/b883c50a-c8b9-4fd6-86a2-e7888dc1c72a" />
  </p>
 ✨ Features
 One-tap sales: tap service tiles in a responsive grid and watch the total update.
@@ -13,7 +13,7 @@ Offline-first: all data is stored locally in SQLite.
 📱 Screenshots
 <table align="center"> <tr> <td align="center"><b>Sale</b></td> <td align="center"><b>Services</b></td> <td align="center"><b>Reports</b></td> </tr> <tr> <td align="center"><img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 25" src="https://github.com/user-attachments/assets/e5af52dc-caf2-4d62-840a-e68d2c49b9b3" />
 </td> <td align="center"><img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 26" src="https://github.com/user-attachments/assets/a7938fc4-19ed-45e9-abc5-786dd32869c5" />
-</td> <img width="784" height="1600" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/aadc23f4-cd0e-478b-b1d6-1e86074531ae" />
+</td> <img width="196" height="400" alt="WhatsApp Image 2026-11-05 at 22 01 26 (1)" src="https://github.com/user-attachments/assets/aadc23f4-cd0e-478b-b1d6-1e86074531ae" />
 </td> </tr> </table>
 🧭 How it works
 Sale: select the services the customer wants.
